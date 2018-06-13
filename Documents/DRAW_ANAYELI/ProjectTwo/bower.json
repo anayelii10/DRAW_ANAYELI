@@ -1,0 +1,22 @@
+{
+  "name": "ProjectTwo",
+  "homepage": "https://github.com/anayelii10/DRAW_ANAYELI",
+  "authors": [
+    "anayelii10 <anayeli.cervantes.negrellos@alumno.uttehuacan.edu.mx>"
+  ],
+  "description": "this is my second project with bootstrap",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "fontawesome": "^5.0.13"
+  }
+}
