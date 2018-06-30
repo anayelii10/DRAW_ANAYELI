@@ -1,184 +1,155 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-      <link rel="stylesheet" href="bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.css">
-      <link rel="stylesheet" href="css/styles.css">
-    <meta name="viewport" content="width=device-width, user-scalable= no, initial-scale=1, maximum-scale=1, minimum-scale=1">
-    <!--se agregan os estilos personalizados-->
-    <link rel="stylesheet" href="/css/styles.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=no. initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+  <!-- enlazar bootsttrap--><link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <!-- enlazar fontawesome--><link rel="stylesheet" href="bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.css">
+  <!-- enlazar css--><link rel="stylesheet" href="css/styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+  <!--barra de navegacion-->
+  <nav  class="navbar bg-dark navbar-dark fixed-top navbar-expand-md ">
+    <a href="index.html" class="navbar-brand">Company logo</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacion">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navegacion" class="justify-content-end collapse navbar-collapse">
+      <ul class="navbar-nav ">
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link" >About Us</a></li>
+        <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal" data-target="#modal-contact-form">Contact Us</a></li>
+        <li class="nav-item" >
+      <form class=" form-inline ">
+			<input class="form-control  mr-sm-2" type="search" placeholder="search" aria-label="search">
+      <button class="btn btn-outline-light my-2 my-sm-0-2" type="submit">Search</button>
+		</form></li>
+  </ul>
+  </div>
+  </nav>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+      <li class="breadcrumb-item"><a href="#">Products</a></li>
+    </ol>
+  </nav>
+  <div class="row">
+    <h1> Products. <small class="text-muted">We build amazing stuff</small></h1>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="card col-md-4">
+      <img src="img/1.jpg" alt="" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title"> Produc 1 </h5>
+        <p class="card-text text-justify" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, commodi.</p>
+        <a href="products-single.html" class="btn btn-primary">Ver mas... </a>
+      </div>
+    </div>
+    <!-- /.card-col-md-4 -->
+    <div class="card col-md-4">
+      <img src="img/2.jpg" alt="" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title"> Produc 2 </h5>
+        <p class="card-text text-justify" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, commodi.</p>
+        <a href="products-single.html" class="btn btn-primary">Ver mas... </a>
+      </div>
+    </div>
+    <!-- /.card-col-md-4 -->
+    <div class="card col-md-4">
+      <img src="img/3.jpg" alt="" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title"> Produc 3 </h5>
+        <p class="card-text text-justify" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, commodi.</p>
+        <a href="products-single.html" class="btn btn-primary">Ver mas... </a>
+      </div>
+    </div>
+    <!-- /.card-col-md-4 -->
+  </div>
+  <hr>
 
-    <title></title>
-  </head>
-  <body>
-    <!--aqui va la barra de navegacion-->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top ">
-      <a href="index.html" class="navbar-brand">Company logo </a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacion">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div id="navegacion" class="justify-content-end collapse navbar-collapse">
-        <ul class="navbar-nav">
-
-          <li class="nav-item"><a href="products.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="index.html" class="nav-link">Products</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
-          <li class="nav-item"><a href="#" class="nav-link" data-toggle="modal" data-target="#modal-contact-form">Contact Us</a></li>
-          <li class="nav-item"> <form class="form-inline"><input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form></li>
+    <div class="row">
+      <hr>
+      <div class="footer col-md-12">
+        <p class="text-center lead">wanna get in touch? Email us at anayeli.cervantes.negrellos@alumno.uttehuacan.edu.mx</p>
+        <hr>
+      <ul class="list-unstyled text-center" id="iconos">
+          <li class="list-inline-item"><a href=""><i class="fab fa-twitter-square"></i></a></li>
+          <li class="list-inline-item"><a href=""><i class="fab fa-facebook-square"></i></a></li>
+          <li class="list-inline-item"><a href=""><i class="fab fa-linkedin"></i></a></li>
         </ul>
+        <p class="text-center text-muted">
+          &copy;Copyright 2018 conpany name
+        </p>
       </div>
-    </nav>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h1>Featured Product</h1>
-          <p>Lorem ipsum dolor sit amet.</p>
-        <div class="btn-group btn-group-lg">
-          <button class="btn btn-info">Buy now!</button>
-          <button class="btn btn-default">Free Trail</button>
-        </div>
-        <p><a href="#">Read more about the product</a></p>
-        </div>
-
-        <div class="col-md-8">
-          <div class="col-md-6 d-none d-sm-block" >
-            <img src="img/01.jpg" alt="750" width="300">
+       <!-- /.footer -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+  <div class="modal fade" id="modal-contact-form" role="dialog">
+    <div class="modal-dialog"  role="document">
+      <div class="modal-content">
+        <div class="modal-header"><h5 class="modal-title">contact us</h5>
+        <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+        </button>
+      </div><!-- /.header -->
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="contac-email" class="col-form-label">
+              Email:
+            </label>
+            <input type="email" class="form-control" id="contact-email">
           </div>
-        </div>
+          <div class="form-group">
+            <label for="contact-name" class="col-form-label">
+              Name:
+            </label>
+            <input type="text" class="form-control" id="contact-email">
+          </div>
+          <div class="form-group">
+            <label for="contact-message" class="col-form-label">
+              Message:
+            </label>
+            <textarea  id="contact-message" cols="30" rows="10" class="form-control"></textarea>
+            <input type="text" class="form-control" id="contact-email">
+          </div>
+        </form>
+      </div><!--end body-->
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-dismiss="modal">
+          Close
+        </button>
+        <button class="btn btn-primary">
+          Send
+        </button>
       </div>
-        <hr>
-        <div class="row">
 
-
-        <div class="col-md-8">
-          <h3>The company</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim perspiciatis fuga cum reiciendis libero quos aliquam eligendi aperiam, voluptate pariatur corporis animi magni facilis inventore atque quia doloribus sunt harum.</p>
-          </div>
-          <div class="row-colum-md-4">
-            <p class="bg-light rounded lead text-center p-md-5 m-md-3">
-              Our Motto
-            </p>
-          </div>
-          </div>
-        <!-- /.row -->
-        <hr>
-        <div class="row">
-          <h3>Testimonials</h3>
-          <div class="col-md-12 text-center">
-            <div class="contaier slide" id="carouselTestimonios" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <blockquote class="blockquote">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus sequi consequatur ipsum minima magnam eos odio vitae facilis, accusantium laudantium.</p>
-                  <footer class="blockquote-footer">
-                    Fulanito 1
-                  </footer>
-              </blockquote> <!---end blockquote--->
-
-                </div>
-                <div class="carousel-item">
-                  <blockquote class="blockquote">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus sequi consequatur ipsum minima magnam eos odio vitae facilis, accusantium laudantium.</p>
-                  <footer class="blockquote-footer">
-                    Fulanito 2
-                  </footer>
-              </blockquote> <!---end blockquote--->
-
-                </div>
-                <div class="carousel-item ">
-                  <blockquote class="blockquote">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus sequi consequatur ipsum minima magnam eos odio vitae facilis, accusantium laudantium.</p>
-                  <footer class="blockquote-footer">
-                    Fulanito 3
-                  </footer>
-              </blockquote> <!---end blockquote--->
-
-                </div>
-              </div>
-              <!-- /.carousel-inner -->
-            </div>
-          </div>
-          <!-- /.col-md-12 text-center -->
-
-
-        </div>
-
-        <hr>
-        <div class="footer md-12">
-          <p class="text-center lead">
-            Wanna get in touch? Email us at
-            anayeli.cervantes.negrellos@alumno.uttehuacan.edu.mx
-          </p>
-          <hr>
-          <ul class="list-unstyled text-center" id="iconos">
-            <li class="list-inline-item"><a href=""><i class="fab fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a href=""><i class="fab fa-facebook"></i></a></li>
-              <li class="list-inline-item"><a href=""><i class="fab fa-linkedin"></i></a></li>
-
-          </ul>
-          <p class="text-center text-muted">
-            &copy; Copyright 2018 Company name
-          </p>
-        </div>
-          <!-- /.footer -->
-        </div>
-          <!-- /.row -->
-          <div class="modal fade" id="modal-contact-form" role="dialog">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Contact Us</h5>
-                  <button class="close" data-dismiss="modal">
-                    <span>&times;</span>
-                  </button>
-                </div>
-               <!--end header-->
-              <div class="modal-body">
-                <form>
-                  <div class="form-group">
-                    <label for="contact-email" class="col-form-label">
-                      Email:
-                    </label>
-                    <input type="email" class="form-control" id="contact-email">
-                  </div>
-                  <div class="from-group">
-                    <label for="contact-name" class="col-form-label">
-                      Name:
-                    </label>
-                    <input type="text" class="form-control" id="contact-name">
-                  </div>
-                  <div class="form-group">
-                    <label for="contact-message" class="col-form-label">Message:</label>
-                    <textarea  id="contact-message" cols="30" rows="10" class="form-control"></textarea>
-                  </div>
-                </form>
-              </div> <!--End body-->
-              <div class="modal-footer">
-                <button class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button class="btn btn-primary">Send</button>
-              </div>
-              </div>
-            </div>
-          </div>
-
-
-
-
+    </div>
+    </div>
+  </div>
 
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"> </script>
-    <script type="text/javascript"></script>
-    <script src="bower_components/hammerjs/hammer.js"></script>
-    <script>
-    var $body = document.body;
-    var hammertime = new Hammer($body);
-    hammertime.on('swipeleft', function(ev) {console.log(ev);});
-    var hammertime = new Hammer($body);
-    hammertime.on('swiperight', function(ev) {console.log(ev);});
-    </script>
-  </body>
-</html>
+    <script src="bower_components/hammerjs/hammer.js" > </script>
+   <script>
+   var $body = document.body;
+   var hammertime = new Hammer($body);
+   hammertime.on('swiperight', function(ev) {
+	 console.log(ev);
+   });
+   hammertime.on('swipeleft', function(ev) {
+	 console.log(ev);
+   });
+   </script>
+
+ </body>
+
+ </html>
