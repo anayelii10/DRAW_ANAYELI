@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, user-scalable=no. initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
   <!-- enlazar bootsttrap--><link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
   <!-- enlazar fontawesome--><link rel="stylesheet" href="bower_components/fontawesome/web-fonts-with-css/css/fontawesome-all.css">
-  <!-- enlazar css--><link rel="stylesheet" href="css/styles.css">
+  <!-- enlazar css--><link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
 <body>
@@ -32,53 +32,55 @@
   </ul>
   </div>
   </nav>
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-      <li class="breadcrumb-item"><a href="#">About us</a></li>
-    </ol>
-  </nav>
-  <div class="row">
-    <h1> About Us. <small class="text-muted">who we are</small></h1>
-  </div>
-  <hr>
-  <div class="row">
-  <div class=" col-md-8">
-      <h3>The company</h3>
-      <p  class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt nulla, eius veniam aut obcaecati praesentium minima iusto harum similique rerum quam. Sequi autem laboriosam quibusdam deserunt soluta iste debitis! Nobis, placeat dolorem quasi magnam voluptatem numquam dignissimos. Quod optio ullam quam veniam in unde pariatur harum dolores voluptate at! Animi itaque, alias expedita! Sapiente, consectetur delectus consequuntur deleniti neque reiciendis porro dolore, totam voluptates deserunt hic perspiciatis in iste sequi consequatur ex. Aspernatur beatae fuga suscipit qui deleniti, magni facilis!</p>
-    </div>
-    <div class="col-md-4">
-      <p class="bg-light rounded lead text-center p-md-5 m-md-3">Our motto</p>
-    </div>
-  </div>
 
-    <!-- /.row -->
+  <div class="container">
+    <div class="row 2">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Product</a></li>
+        </ol>
+      </nav>
+    </div>
+    <div class="row">
+      <h1> Products. <small class="text-muted">We build amazing stuff</small></h1>
+    </div>
+  </div>
     <hr>
     <div class="row">
-      <h3>The Team</h3>
-    </div>
-    <div class="row"  id="aboutimg">
-      <div class="card col-md-5 ">
-        <img src="img/demo-team-member.jpg" alt="" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title"> John Doe</h5>
-          <p class="card-text text-justify" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, commodi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, commodi.</p>
-          <a href="products-single.html" ><i class="fab fa-twitter-square"></i></a>
-          <a href="products-single.html" ><i class="fab fa-facebook-square"></i></a>
+      <div class="col-md-6">
+        <h2>Product 1</h2>
+        <p>This is an awesome product one description</p>
+      </div>
+      <div class=" col-md-6">
+        <div class="btn-group btn-group-lg d-flex justify-content-end">
+            <button class="btn btn-primary">Buy Now!  </button>
+            <button class="btn btn-secondary">Free Trail  </button>
         </div>
       </div>
-      <!-- /.card-col-md-4 -->
-      <div class="card col-md-5 offset-md-2">
-        <img src="img/demo-team-member.jpg" alt="" class="card-img-top">
-        <div class="card-body">
-          <h5 class="card-title"> John Doe</h5>
-          <p class="card-text text-justify" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, commodi.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, commodi.</p>
-          <a href="products-single.html" ><i class="fab fa-twitter-square"></i></a>
 
-          <a href="products-single.html" ><i class="fab fa-facebook-square"></i></a>
+    </div>
+    <div class="row">
+      <div class="carousel slide" id="carousel-product" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+          <img src="img/large1.jpg" alt="" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+              <img src="img/large2.jpg" alt="" class="d-block w-100">
+          </div>
+          <div class="carousel-item">
+              <img src="img/large3.jpg" alt="" class="d-block w-100">
+          </div>
         </div>
+         <a href="#carousel-product" class="carousel-control-prev" data-slide="prev" role="button">
+           <span class="carousel-control-prev-icon"></span>
+         </a>
+         <a href="#carousel-product" class="carousel-control-next" data-slide="next" role="button">
+           <span class="carousel-control-next-icon"></span>
+         </a>
       </div>
-      <!-- /.card-col-md-4 -->
+
     </div>
     <div class="footer col-md-12">
       <p class="text-center lead">wanna get in touch? Email us at anayeli.cervantes.negrellos@alumno.uttehuacan.edu.mx</p>
