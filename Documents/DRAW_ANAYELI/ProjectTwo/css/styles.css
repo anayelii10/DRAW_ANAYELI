@@ -4,3 +4,14 @@ body{
 #iconos{
   font-size: 40px;
 }
+
+#productoss div{
+  padding: 15;
+}
+#productoss{
+  margin-top: 50px;
+}
+
+#pnext{
+  margin-bottom: 50px;
+}
